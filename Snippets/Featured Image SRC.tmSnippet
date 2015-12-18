@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( \$post-&gt;ID ), ${1:array(591,456)});
+\$imgsrc[0];
+</string>
+	<key>name</key>
+	<string>Featured Image SRC</string>
+	<key>tabTrigger</key>
+	<string>imgsrc</string>
+	<key>uuid</key>
+	<string>FB21AFE3-C7C5-4494-B728-EBDEBFEC9479</string>
+</dict>
+</plist>

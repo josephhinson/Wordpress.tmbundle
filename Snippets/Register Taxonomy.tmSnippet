@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// Taxonomy for "${2:Label(plural)}" -- works like categories
+register_taxonomy( '${1:cat_slug}', '${4:for_post_type}', array( 'hierarchical' =&gt; true, 'label' =&gt; '${2:Label(plural)}', 'query_var' =&gt; true, 'rewrite' =&gt; true, 'singular-label' =&gt; '${3:Label(singular)}') );</string>
+	<key>name</key>
+	<string>Register Taxonomy</string>
+	<key>tabTrigger</key>
+	<string>register_taxonomy</string>
+	<key>uuid</key>
+	<string>ABB7B9B8-C9DA-4485-A853-5BEA31AA72E6</string>
+</dict>
+</plist>

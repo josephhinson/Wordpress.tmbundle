@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php 
+\$args = array(
+'menu'            =&gt; '$1',
+'container'       =&gt; '',
+'menu_class' =&gt; '${2:dropdown-menu}',
+);
+wp_nav_menu( \$args ); ?&gt;</string>
+	<key>name</key>
+	<string>wp_nav_menu</string>
+	<key>tabTrigger</key>
+	<string>wp_nav_menu</string>
+	<key>uuid</key>
+	<string>DC8BBAD6-F77D-456E-80BF-86109DD57B8E</string>
+</dict>
+</plist>

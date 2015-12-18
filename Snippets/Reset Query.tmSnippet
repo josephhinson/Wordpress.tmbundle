@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>wp_reset_query();</string>
+	<key>name</key>
+	<string>Reset Query</string>
+	<key>tabTrigger</key>
+	<string>reset_query</string>
+	<key>uuid</key>
+	<string>EF284919-A367-407E-92AA-05E0A68F0EEB</string>
+</dict>
+</plist>

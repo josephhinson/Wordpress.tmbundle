@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php query_posts($1); ?&gt;$2</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>query posts</string>
+	<key>tabTrigger</key>
+	<string>query_posts</string>
+	<key>uuid</key>
+	<string>83D6587C-8CC0-4D36-A21D-8951F65AA954</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+\$${1:page} = ${2:ID};
+\$$1 = get_post(\$$1); ?&gt;</string>
+	<key>name</key>
+	<string>get_post()</string>
+	<key>tabTrigger</key>
+	<string>get_post</string>
+	<key>uuid</key>
+	<string>33435299-7B45-4925-A775-947202D2AA2E</string>
+</dict>
+</plist>

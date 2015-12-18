@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// This function Registers a Sidebar Widget, and allows you to expand the customization of your theme.
+function $1() { ?&gt;
+	${3:Put Your widget code here}
+&lt;?php } 
+register_sidebar_widget("${2:Name of Widget}", "$1");
+$4</string>
+	<key>name</key>
+	<string>Register Widget Function</string>
+	<key>tabTrigger</key>
+	<string>function_reg_widget</string>
+	<key>uuid</key>
+	<string>774AFDDC-F151-474B-B8A8-D11C169D4A48</string>
+</dict>
+</plist>

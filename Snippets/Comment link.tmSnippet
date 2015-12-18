@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php comments_popup_link('${1:No Comments}', '${2:1 Comment}', '${3:% Comments}'); ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@C</string>
+	<key>name</key>
+	<string>Comment link</string>
+	<key>tabTrigger</key>
+	<string>comment_link</string>
+	<key>uuid</key>
+	<string>7915A94A-2368-461D-8623-EBAD613E75CF</string>
+</dict>
+</plist>

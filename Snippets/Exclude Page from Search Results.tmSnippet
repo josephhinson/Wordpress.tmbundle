@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function mySearchFilter(\$query) {
+if (\$query-&gt;is_search) {
+\$query-&gt;set('post__not_in', array($1));
+}
+return \$query;
+}
+add_filter('pre_get_posts','mySearchFilter');</string>
+	<key>name</key>
+	<string>Exclude Page from Search Results</string>
+	<key>tabTrigger</key>
+	<string>exclude_from_search</string>
+	<key>uuid</key>
+	<string>5032A382-21D7-47F3-8A86-73344B8E9A64</string>
+</dict>
+</plist>

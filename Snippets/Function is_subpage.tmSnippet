@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// Function checks to see if your on a subpage so that you can use the call "if (is_subpage())"
+function is_subpage() {
+	global \$post;                                 // load details about this page
+        if ( is_page() &amp;&amp; \$post-&gt;post_parent ) {      // test to see if the page has a parent
+               \$parentID = \$post-&gt;post_parent;        // the ID of the parent is this
+               return \$parentID;                      // return the ID
+        } else {                                      // there is no parent so...
+               return false;                          // ...the answer to the question is false
+        };
+};</string>
+	<key>name</key>
+	<string>Function is_subpage</string>
+	<key>tabTrigger</key>
+	<string>is_subpage</string>
+	<key>uuid</key>
+	<string>E184E4C0-D11D-46F6-9B66-F52E5AE7770C</string>
+</dict>
+</plist>

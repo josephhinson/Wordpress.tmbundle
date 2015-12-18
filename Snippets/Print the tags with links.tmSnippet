@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php the_tags( '${1:&lt;p&gt;Tags: }', '${2, }', '${3&lt;/p&gt;}'); ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>Print the tags with links</string>
+	<key>tabTrigger</key>
+	<string>the_tags</string>
+	<key>uuid</key>
+	<string>2BFB88FD-51AD-4E3D-ABAD-95FB3A80E9F7</string>
+</dict>
+</plist>

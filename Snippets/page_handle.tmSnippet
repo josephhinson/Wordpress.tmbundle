@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function page_handle() {
+	global \$post;
+	\$queue = '';
+	if (is_front_page()) {
+		\$queue = 'home';
+	} elseif (is_page()) {
+		\$queue = 'page';
+	} elseif (get_post_type() == 'book' or is_post_type_archive('book')) {
+		\$queue = 'book';
+	} elseif (is_home() or is_single() or is_category()) {
+		\$queue = 'blog';
+	}
+	echo \$queue;
+}</string>
+	<key>name</key>
+	<string>page_handle</string>
+	<key>tabTrigger</key>
+	<string>page_handle</string>
+	<key>uuid</key>
+	<string>36EF5391-5A95-41EF-8ACD-1C8BD17BC2C8</string>
+</dict>
+</plist>

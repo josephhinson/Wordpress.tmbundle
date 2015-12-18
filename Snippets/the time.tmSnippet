@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php the_time('${1:l, F jS, Y}'); ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>the time</string>
+	<key>tabTrigger</key>
+	<string>the_time</string>
+	<key>uuid</key>
+	<string>2330C449-5A73-467F-9F39-06DDCBDBA50C</string>
+</dict>
+</plist>

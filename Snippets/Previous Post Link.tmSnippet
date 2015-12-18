@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php previous_post_link(' ${1:%link} ') ?&gt;</string>
+	<key>name</key>
+	<string>Previous Post Link</string>
+	<key>tabTrigger</key>
+	<string>previous_post</string>
+	<key>uuid</key>
+	<string>B3AA3354-B130-4CC0-A9B7-A08568BA574C</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>define('WP_HOME','$1');
+define('WP_SITEURL','$1');
+$2</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>Define Site URL (wp config lines)</string>
+	<key>tabTrigger</key>
+	<string>define_siteurl</string>
+	<key>uuid</key>
+	<string>98D68947-52FB-4D25-ACBE-A2B4C940F6B8</string>
+</dict>
+</plist>

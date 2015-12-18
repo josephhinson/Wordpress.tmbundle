@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ready_jQuery() {
+    wp_enqueue_script('jquery');            
+}    
+add_action('init', 'ready_jQuery');</string>
+	<key>name</key>
+	<string>Function enqueue jquery</string>
+	<key>tabTrigger</key>
+	<string>function_ready_jQuery</string>
+	<key>uuid</key>
+	<string>8108CEA5-FC03-40AC-B2A2-BD14FDCD82AE</string>
+</dict>
+</plist>

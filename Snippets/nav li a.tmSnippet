@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.nav li a:hover,
+.nav li.current-menu-item a,
+.nav li.current_page_item a,
+.nav li.current_page_parent a,
+.nav li.current_page_ancestor a</string>
+	<key>name</key>
+	<string>nav li a</string>
+	<key>tabTrigger</key>
+	<string>nav_li</string>
+	<key>uuid</key>
+	<string>1737D560-3504-4F82-A183-9A4317739E6A</string>
+</dict>
+</plist>

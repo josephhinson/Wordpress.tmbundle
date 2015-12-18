@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function custom_login_logo() {
+    echo '&lt;style type="text/css"&gt;
+        h1 a { background-image:url('.get_bloginfo('template_directory').'/images/vis-notetaking.png) !important;height:114px; }
+    &lt;/style&gt;';
+}
+add_action('login_head', 'custom_login_logo');</string>
+	<key>name</key>
+	<string>custom login logo</string>
+	<key>tabTrigger</key>
+	<string>cust_log_logo</string>
+	<key>uuid</key>
+	<string>EA1C9D13-5B58-42F4-BDC6-6A2715431F47</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php wp_list_pages($1); ?&gt;	</string>
+	<key>name</key>
+	<string>List Pages</string>
+	<key>tabTrigger</key>
+	<string>list_pages</string>
+	<key>uuid</key>
+	<string>2006DDE5-03FC-4631-8122-219C3223D648</string>
+</dict>
+</plist>

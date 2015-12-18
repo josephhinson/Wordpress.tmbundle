@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo get_post_meta(\$post-&gt;ID, '${1:customfield}', true); ?&gt;$2</string>
+	<key>name</key>
+	<string>Echo Custom Field</string>
+	<key>tabTrigger</key>
+	<string>echo_gpm</string>
+	<key>uuid</key>
+	<string>D382DB7B-04EE-4223-BE92-81122A0027FE</string>
+</dict>
+</plist>

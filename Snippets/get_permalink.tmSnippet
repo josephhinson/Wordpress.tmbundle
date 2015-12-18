@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo get_permalink($1); ?&gt;$2</string>
+	<key>name</key>
+	<string>get_permalink</string>
+	<key>tabTrigger</key>
+	<string>get_permalink</string>
+	<key>uuid</key>
+	<string>CBEBF238-1DBD-4D49-B08D-8F08D0C99AA9</string>
+</dict>
+</plist>

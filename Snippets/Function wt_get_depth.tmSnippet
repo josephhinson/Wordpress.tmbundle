@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// This function checks to see what level of depth you are currently on.
+// More here: http://www.web-templates.nu/2008/09/07/get-depth-like-is_child-is_grandchild/
+function wt_get_depth(\$id = '', \$depth = '', \$i = 0)
+{
+	global \$wpdb;
+	global \$post;
+
+	if(\$depth == '')
+	{
+		if(is_page())
+		{
+			if(\$id == '')
+			{
+				\$id = \$post-&gt;ID;
+			}
+			\$depth = \$wpdb-&gt;get_var("SELECT post_parent FROM \$wpdb-&gt;posts WHERE ID = '".\$id."'");
+			return wt_get_depth(\$id, \$depth, \$i);
+		}
+	}
+	elseif(\$depth == "0")
+	{
+		return \$i;
+	}
+	else
+	{
+		\$depth = \$wpdb-&gt;get_var("SELECT post_parent FROM \$wpdb-&gt;posts WHERE ID = '".\$depth."'");
+		\$i++;
+		return wt_get_depth(\$id, \$depth, \$i);
+	}
+}</string>
+	<key>name</key>
+	<string>Function wt_get_depth</string>
+	<key>tabTrigger</key>
+	<string>function_get_depth</string>
+	<key>uuid</key>
+	<string>07F09D8C-4090-4715-B5A3-4737C8BF50E2</string>
+</dict>
+</plist>

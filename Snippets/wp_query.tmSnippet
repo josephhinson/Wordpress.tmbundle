@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php \$${1:query} = new WP_Query(array(
+	${2:'posts_per_page' =&gt; '3',}
+	))
+if (\$$1-&gt;have_posts()) : while (\$$1-&gt;have_posts()) : \$$1-&gt; the_post(); ?&gt;
+	$3
+&lt;?php endwhile; ?&gt;
+&lt;?php endif; ?&gt;</string>
+	<key>name</key>
+	<string>wp_query</string>
+	<key>tabTrigger</key>
+	<string>wp_query</string>
+	<key>uuid</key>
+	<string>F5BC2BEB-C7FF-4C9E-A424-EB8F36FDBC96</string>
+</dict>
+</plist>

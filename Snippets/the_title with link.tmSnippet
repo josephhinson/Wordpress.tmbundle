@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;a href="&lt;?php the_permalink() ?&gt;" rel="bookmark" title="&lt;?php the_title_attribute(); ?&gt;"&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;
+</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>the_title with link</string>
+	<key>tabTrigger</key>
+	<string>title_link</string>
+	<key>uuid</key>
+	<string>4A469592-2FEC-4209-AE78-6BA1965CCA1D</string>
+</dict>
+</plist>

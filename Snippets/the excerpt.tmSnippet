@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php the_excerpt(); ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>the excerpt</string>
+	<key>tabTrigger</key>
+	<string>the_excerpt</string>
+	<key>uuid</key>
+	<string>D8C9EA9F-D61E-42B5-9329-CC4B3763FB71</string>
+</dict>
+</plist>

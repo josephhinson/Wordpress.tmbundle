@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="navigation"&gt;
+	&lt;div class="alignleft"&gt;&lt;?php next_posts_link('&amp;larr; Older Entries') ?&gt;&lt;/div&gt;
+	&lt;div class="alignright"&gt;&lt;?php previous_posts_link('Newer Entries &amp;rarr;') ?&gt;&lt;/div&gt;
+&lt;/div&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>Navigation</string>
+	<key>tabTrigger</key>
+	<string>navigation</string>
+	<key>uuid</key>
+	<string>1481008C-E16A-49D3-A292-DBA2FEDF1246</string>
+</dict>
+</plist>

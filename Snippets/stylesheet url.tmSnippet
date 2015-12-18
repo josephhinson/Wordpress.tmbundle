@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php bloginfo('stylesheet_url'); ?&gt;</string>
+	<key>name</key>
+	<string>stylesheet url</string>
+	<key>tabTrigger</key>
+	<string>stylesheet_url</string>
+	<key>uuid</key>
+	<string>BFF4FB1A-BAE5-4AD1-A6C6-4CBA9098CF5E</string>
+</dict>
+</plist>

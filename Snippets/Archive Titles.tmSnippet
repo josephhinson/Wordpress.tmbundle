@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php /* If this is a category archive */ if (is_search()) { ?&gt;
+	&lt;h1 class="pagetitle"&gt;Search Results&lt;/h1&gt;
+&lt;?php /* If this is a category archive */ } elseif (is_category()) { ?&gt;
+	&lt;h1 class="pagetitle"&gt;Posts filed under &amp;ldquo;&lt;?php single_cat_title(); ?&gt;&amp;rdquo;&lt;/h1&gt;
+&lt;?php /* If this is a tag archive */ } elseif( is_tag() ) { ?&gt;
+	&lt;h1 class="pagetitle"&gt;Posts Tagged &amp;#8216;&lt;?php single_tag_title(); ?&gt;&amp;#8217;&lt;/h1&gt;
+&lt;?php /* If this is a daily archive */ } elseif (is_day()) { ?&gt;
+	&lt;h1 class="pagetitle"&gt;Archive for &lt;?php the_time('F jS, Y'); ?&gt;&lt;/h1&gt;
+&lt;?php /* If this is a monthly archive */ } elseif (is_month()) { ?&gt;
+	&lt;h1 class="pagetitle"&gt;Archive for &lt;?php the_time('F, Y'); ?&gt;&lt;/h1&gt;
+&lt;?php /* If this is a yearly archive */ } elseif (is_year()) { ?&gt;
+	&lt;h1 class="pagetitle"&gt;Archive for &lt;?php the_time('Y'); ?&gt;&lt;/h1&gt;
+&lt;?php /* If this is an author archive */ } elseif (is_author()) { ?&gt;
+	&lt;h1 class="pagetitle"&gt;Author Archive&lt;/h1&gt;
+&lt;?php /* If this is a paged archive */ } else { ?&gt;
+	&lt;h1 class="pagetitle"&gt;&lt;a href="/blog"&gt;Blog&lt;/a&gt;&lt;/h1&gt;
+	&lt;a class="rss" href="&lt;?php bloginfo('rss2_url'); ?&gt;"&gt;rss&lt;/a&gt;
+&lt;?php } ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>Archive Titles</string>
+	<key>tabTrigger</key>
+	<string>archive_titles</string>
+	<key>uuid</key>
+	<string>3757E76A-BA7A-46C6-B6B6-0A395BEBB2AA</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>get_posts('numberposts=-1&amp;orderby=menu_order&amp;order=ASC&amp;post_type=page&amp;post_status=publish&amp;post_parent='.\$post-&gt;ID);</string>
+	<key>name</key>
+	<string>get_posts</string>
+	<key>tabTrigger</key>
+	<string>get_posts</string>
+	<key>uuid</key>
+	<string>424CFD5B-8303-4563-AFF7-526FFB396615</string>
+</dict>
+</plist>

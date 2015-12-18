@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php include (TEMPLATEPATH . '/$1'); ?&gt;$2</string>
+	<key>name</key>
+	<string>WordPress Include</string>
+	<key>tabTrigger</key>
+	<string>wp_include</string>
+	<key>uuid</key>
+	<string>1CDD6FBC-2DA0-4879-99AB-340416CA5529</string>
+</dict>
+</plist>

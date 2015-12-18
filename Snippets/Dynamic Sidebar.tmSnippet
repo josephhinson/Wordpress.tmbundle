@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php 	/* Widgetized sidebar, if you have the plugin installed. */
+		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar($1) ) : ?&gt;
+$2
+&lt;?php endif; ?&gt;</string>
+	<key>name</key>
+	<string>Dynamic Sidebar</string>
+	<key>tabTrigger</key>
+	<string>wig_sidebar</string>
+	<key>uuid</key>
+	<string>8654C857-6E1D-457B-A633-581112D7594D</string>
+</dict>
+</plist>

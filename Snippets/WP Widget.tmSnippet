@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// This is a widget for $3
+
+// initializes the widget on WordPress Load
+add_action('widgets_init', '$2_init_widget');
+
+// Should be called above from "add_action"
+function $2_init_widget() {
+	register_widget( '$1' );
+}
+
+// new class to extend WP_Widget function
+class $1 extends WP_Widget {
+	/** Widget setup.  */
+	function $1() {
+		/* Widget settings. */
+		\$widget_ops = array(
+			'classname' =&gt; '$2_widget',
+			'description' =&gt; __('$3', '$2_widget') );
+
+		/* Widget control settings. */
+		\$control_ops = array( 'width' =&gt; 300, 'height' =&gt; 350, 'id_base' =&gt; '$2_widget' );
+
+		/* Create the widget. */
+		\$this-&gt;WP_Widget( '$2_widget', __('$3 Widget', 'Options'), \$widget_ops, \$control_ops );
+	}
+	/**
+	* How to display the widget on the screen. */
+	function widget( \$args, \$instance ) {
+		extract( \$args );
+		\$title = apply_filters('widget_title', \$instance['title'] );
+
+		/* Before widget (defined by themes). */
+		echo \$before_widget;
+		if ( \$title )
+			echo \$before_title . \$title . \$after_title;
+		
+		/* Display name from widget settings if one was input. */
+		
+		// Settings from the widget
+		$4
+		
+		/* After widget (defined by themes). */
+		echo \$after_widget;
+	}
+
+	/**
+	 * Update the widget settings.
+	 */
+	function update( \$new_instance, \$old_instance ) {
+		\$instance = \$old_instance;
+
+		/* Strip tags for title and name to remove HTML (important for text inputs). */
+		\$instance['title'] = strip_tags( \$new_instance['title'] );
+
+		return \$instance;
+	}
+	
+/**
+ * Displays the widget settings controls on the widget panel.
+ * Make use of the get_field_id() and get_field_name() function
+ * when creating your form elements. This handles the confusing stuff.
+*/
+function form(\$instance) {
+	\$defaults = array( 'title' =&gt; __('$3', '$2_widget'));
+	\$instance = wp_parse_args( (array) \$instance, \$defaults ); ?&gt;
+	&lt;!-- Widget Title: Text Input --&gt;
+	&lt;p&gt;
+		&lt;label for="&lt;?php echo \$this-&gt;get_field_id( 'title' ); ?&gt;"&gt;&lt;?php _e('Title:', '$2_widget'); ?&gt;&lt;/label&gt;&lt;br&gt;
+		&lt;input type="text" class="widefat" id="&lt;?php echo \$this-&gt;get_field_id( 'title' ); ?&gt;" name="&lt;?php echo \$this-&gt;get_field_name( 'title' ); ?&gt;" value="&lt;?php echo \$instance['title']; ?&gt;"&gt;
+	&lt;/p&gt;
+	&lt;?php
+	}
+} // END $1</string>
+	<key>name</key>
+	<string>WP Widget</string>
+	<key>tabTrigger</key>
+	<string>wp_widget</string>
+	<key>uuid</key>
+	<string>3127B7F3-1A53-4AAE-A5BD-4D7D34A86889</string>
+</dict>
+</plist>

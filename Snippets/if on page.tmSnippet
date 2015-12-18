@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if (is_page('$1')) : ?&gt;class="current_page_item" &lt;?php endif; ?&gt;</string>
+	<key>name</key>
+	<string>if on page</string>
+	<key>tabTrigger</key>
+	<string>onpage</string>
+	<key>uuid</key>
+	<string>62B36074-7119-436E-AC68-08D0E3682F67</string>
+</dict>
+</plist>

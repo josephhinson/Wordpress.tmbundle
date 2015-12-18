@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if (have_posts()) : while (have_posts()) : the_post(); ?&gt;
+	${1:WhileStatement}
+&lt;?php endwhile; ?&gt;
+&lt;?php endif; ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>The Loop</string>
+	<key>tabTrigger</key>
+	<string>theloop</string>
+	<key>uuid</key>
+	<string>AE9F7301-8D65-4D33-9EAF-55E0EB4C6508</string>
+</dict>
+</plist>

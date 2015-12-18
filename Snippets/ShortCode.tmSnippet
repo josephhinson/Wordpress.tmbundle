@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// [$2]
+function $1(\$atts) {
+		extract(shortcode_atts(array(
+			"$3" =&gt; $4
+        ), \$atts));
+		\$return = '';
+		\$return .='$5';
+		return \$return;
+}
+add_shortcode("$2", "$1");
+// end shortcode</string>
+	<key>name</key>
+	<string>ShortCode</string>
+	<key>tabTrigger</key>
+	<string>shortcode</string>
+	<key>uuid</key>
+	<string>0B9325D9-EC1F-43B0-867E-DA2F19138E0D</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo get_option('$1'); ?&gt;$2</string>
+	<key>keyEquivalent</key>
+	<string>@O</string>
+	<key>name</key>
+	<string>echo_option</string>
+	<key>tabTrigger</key>
+	<string>ego</string>
+	<key>uuid</key>
+	<string>816B7A06-1D53-4779-B1D3-E0A96660FB95</string>
+</dict>
+</plist>

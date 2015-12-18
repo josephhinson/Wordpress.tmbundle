@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if (is_front_page()): ?&gt;
+	&lt;h1 class="logo"&gt;
+		&lt;a href="&lt;?php bloginfo('url'); ?&gt;"&gt;${1:&lt;?php bloginfo('name'); ?&gt;}&lt;/a&gt;
+	&lt;/h1&gt;
+&lt;?php else : ?&gt;
+	&lt;div class="logo"&gt;
+		&lt;a href="&lt;?php bloginfo('url'); ?&gt;"&gt;${1:&lt;?php bloginfo('name'); ?&gt;}&lt;/a&gt;
+	&lt;/div&gt;
+&lt;?php endif; ?&gt;$2</string>
+	<key>name</key>
+	<string>SEO Logo</string>
+	<key>tabTrigger</key>
+	<string>logo</string>
+	<key>uuid</key>
+	<string>317B9563-052E-4373-8E03-B3F87149CF4E</string>
+</dict>
+</plist>

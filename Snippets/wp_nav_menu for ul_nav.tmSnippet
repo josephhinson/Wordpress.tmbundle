@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php \$args = array(
+		  'menu'            =&gt; 'top-navigation', 
+		  'container_class' =&gt; 'nav',
+		);
+		// Nav menu found in Appearance &gt; Menus
+		wp_nav_menu(\$args); ?&gt; </string>
+	<key>name</key>
+	<string>wp_nav_menu for ul.nav</string>
+	<key>tabTrigger</key>
+	<string>topnav</string>
+	<key>uuid</key>
+	<string>883413AC-B445-45F2-9A3C-7D53C929EA6B</string>
+</dict>
+</plist>

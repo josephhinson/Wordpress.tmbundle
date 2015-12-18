@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php get_sidebar(); ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@K</string>
+	<key>name</key>
+	<string>get sidebar</string>
+	<key>tabTrigger</key>
+	<string>get_sidebar</string>
+	<key>uuid</key>
+	<string>52E12896-12E1-4657-9A74-8A1494B1D157</string>
+</dict>
+</plist>
